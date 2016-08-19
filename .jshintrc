@@ -1,0 +1,15 @@
+{
+    "browser": true,
+    "jquery": true,
+    "mocha": true,
+    "node": true,
+
+    "curly": false,
+    "eqeqeq": false,
+    "maxdepth": 99,
+    "maxerr": 1000,
+    "undef": false,
+    "unused": false,
+    "esversion": 6,
+    "expr": true
+}

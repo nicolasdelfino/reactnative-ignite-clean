@@ -1,0 +1,5 @@
+{
+    "validateLineBreaks": false,
+    "disallowMultipleVarDecl": false,
+    "validateIndentation": null
+}
