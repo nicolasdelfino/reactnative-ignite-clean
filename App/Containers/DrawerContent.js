@@ -21,12 +21,18 @@ class DrawerContent extends Component {
     NavigationActions.secondScreen()
   }
 
+  handleOnThirdScreen = () => {
+    this.toggleDrawer()
+    NavigationActions.thirdScreen()
+  }
+
   // <Image source={Images.logo} style={styles.logo} />
   render () {
     return (
       <ScrollView style={styles.container}>
         <DrawerButton text='Start screen' onPress={this.handleOnStartScreen} />
         <DrawerButton text='Second screen' onPress={this.handleOnSecondScreen} />
+        <DrawerButton text='Third screen' onPress={this.handleOnThirdScreen} />
       </ScrollView>
     ) 
   }
